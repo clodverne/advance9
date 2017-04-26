@@ -1,0 +1,204 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  color: dark-color;
+}
+
+@font-face {
+  font-family: 'Rockwell MT';
+  src: url("../fonts/RockwellMT.eot");
+  src: url("../fonts/RockwellMT.eot?#iefix") format('embedded-opentype'),url("../fonts/RockwellMT.woff2") format('woff2'),url("../fonts/RockwellMT.woff") format('woff'),url("../fonts/RockwellMT.ttf") format('truetype'),url("../fonts/RockwellMT.svg#RockwellMT") format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rockwell MT';
+  src: url("../fonts/RockwellMT-BoldItalic.eot");
+  src: url("../fonts/RockwellMT-BoldItalic.eot?#iefix") format('embedded-opentype'),url("../fonts/RockwellMT-BoldItalic.woff2") format('woff2'),url("../fonts/RockwellMT-BoldItalic.woff") format('woff'),url("../fonts/RockwellMT-BoldItalic.ttf") format('truetype'),url("../fonts/RockwellMT-BoldItalic.svg#RockwellMT-BoldItalic") format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+
+.reg,
+.semi {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 400;
+}
+
+.semi {
+  font-weight: 600;
+}
+
+.bold,
+.header-font,
+.header-nav li a {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+}
+
+.header-font {
+  font-family: 'Rockwell';
+}
+
+.header-font-normal,
+.header-text-block h1 {
+  font-family: 'Rockwell';
+  font-weight: 400;
+}
+
+header {
+  height: 100vh;
+  min-height: 60rem;
+  background: url("../img/main-bg.jpg") no-repeat center center;
+}
+
+.header-top-block {
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+  height: 11rem;
+  background-color: #fff;
+}
+
+.header-logo,
+.header-nav {
+  height: 11rem;
+  line-height: 11rem;
+}
+
+.header-logo img,
+.header-logo span {
+  vertical-align: middle;
+}
+
+.header-logo span {
+  font-family: 'Rockwell';
+  font-weight: 400;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.header-nav {
+  border-right: 1px solid rgba(164,164,164,.1);
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.header-nav li a {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #202242;
+}
+
+.header-nav li a:hover {
+  text-decoration: none;
+}
+
+.header-nav li.item-active a {
+  color: #ffff3e;
+}
+
+.header-callback,
+.header-nav {
+  text-align: center;
+}
+
+.header-callback_btn,
+.header-callback_text p,
+.header-nav li.item-active a {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+}
+
+.header-callback_text p {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.header-callback_btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  margin-right: 2rem;
+  background-color: #ffff3e;
+  color: #202242;
+}
+
+.header-callback_phone {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: dark-color;
+  padding-left: 2rem;
+  border-left: 2px solid rgba(164,164,164,.1);
+}
+
+.header-text-block {
+  text-align: center;
+  padding-top: 10%;
+  color: #fff;
+}
+
+.header-text-block h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header-text-block p {
+  font-size: 2rem;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 400;
+}
+
+.header-main-img {
+  margin-top: 2rem;
+}
+
+.main-form-block {
+  padding-top: 2rem;
+  width: 50rem;
+  height: 9rem;
+  margin: 4rem auto;
+  text-align: center;
+  background-color: rgba(255,255,255,.5);
+}
+
+.input-addon,
+.main-form-btn,
+.main-form-input {
+  display: inline-block;
+  height: 5rem;
+  vertical-align: middle;
+}
+
+.main-form-input {
+  padding: 1rem;
+  margin-right: -4px;
+  border: 0;
+  width: 40%;
+  background-color: #fff;
+}
+
+.input-addon,
+.main-form-btn {
+  background-color: #ffff3e;
+}
+
+.main-form-btn {
+  border: 0;
+  color: #fff;
+}
+
+.input-addon {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  width: 8rem;
+  margin-right: -3px;
+  line-height: 5rem;
+}
