@@ -3,11 +3,11 @@ html {
 }
 
 body {
-  color: dark-color;
+  color: #202242;
 }
 
 @font-face {
-  font-family: 'Rockwell MT';
+  font-family: 'Rockwell';
   src: url("../fonts/RockwellMT.eot");
   src: url("../fonts/RockwellMT.eot?#iefix") format('embedded-opentype'),url("../fonts/RockwellMT.woff2") format('woff2'),url("../fonts/RockwellMT.woff") format('woff'),url("../fonts/RockwellMT.ttf") format('truetype'),url("../fonts/RockwellMT.svg#RockwellMT") format('svg');
   font-weight: 400;
@@ -15,7 +15,7 @@ body {
 }
 
 @font-face {
-  font-family: 'Rockwell MT';
+  font-family: 'Rockwell';
   src: url("../fonts/RockwellMT-BoldItalic.eot");
   src: url("../fonts/RockwellMT-BoldItalic.eot?#iefix") format('embedded-opentype'),url("../fonts/RockwellMT-BoldItalic.woff2") format('woff2'),url("../fonts/RockwellMT-BoldItalic.woff") format('woff'),url("../fonts/RockwellMT-BoldItalic.ttf") format('truetype'),url("../fonts/RockwellMT-BoldItalic.svg#RockwellMT-BoldItalic") format('svg');
   font-weight: 700;
@@ -83,6 +83,7 @@ header {
   border-right: 1px solid rgba(164,164,164,.1);
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
+  text-align: center;
 }
 
 .header-nav li {
@@ -102,11 +103,11 @@ header {
 }
 
 .header-nav li.item-active a {
-  color: #ffff3e;
+  color: #fd1;
 }
 
-.header-callback,
-.header-nav {
+.header-callback {
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -126,7 +127,7 @@ header {
   display: inline-block;
   padding: 1rem 2.5rem;
   margin-right: 2rem;
-  background-color: #ffff3e;
+  background-color: #fd1;
   color: #202242;
 }
 
@@ -187,16 +188,17 @@ header {
 
 .input-addon,
 .main-form-btn {
-  background-color: #ffff3e;
+  font-family: 'Raleway',sans-serif;
+  background-color: #fd1;
 }
 
 .main-form-btn {
   border: 0;
   color: #fff;
+  font-weight: 600;
 }
 
 .input-addon {
-  font-family: 'Raleway',sans-serif;
   font-weight: 700;
   width: 8rem;
   margin-right: -3px;
